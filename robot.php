@@ -1,5 +1,5 @@
 <?php
-require_once('class.php');
+require_once('src/class.php');
 
 $argarray = getopt("", ["floor:", "area:"]);
 $floortype = strtolower($argarray['floor']);
